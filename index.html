@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div>
+                <input type="color" id="seed" name="seed" value="#C40316">
+            </div>
+            <div>
+                <select id="scheme" name="scheme">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complemen</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+            </div>
+            <div>
+                <button id="submit-btn">Get color scheme</button>
+            </div>
+        </header>
+        <main id="colors">
+            <!-- display colors vertically -->
+        </main>
+        <footer id="hexValues">
+            <!-- hex values for corresponding colors -->
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>

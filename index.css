@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
+}
+
+header {
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 0;
+    background: #1F2937;
+}
+
+#seed {
+    margin-left: 3vw;
+    width: 13vw;
+    height: 43px;
+}
+
+#scheme {
+    width: 55vw;
+    height: 43px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    background: #1F2937; 
+    color: #D1D5DB;
+    font-family: 'Inter', sans-serif;
+}
+
+#submit-btn {
+    width: 22.3vw;
+    margin-right: 3vw;
+    height: 43px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    background: #3D4B60;
+    color: #FFFFFF;
+}
+
+footer {
+    height: 46px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.hexValue{
+    width: 20vw;
+    text-align: center;
+    color: #D5D4D8;
+    font-size: 12px;
+}
+
+main {
+    display: flex;
+}
+
+.color {
+    height: 100vh;
+    width: 20vw;
+    background: none;
+}
+
+@media (min-width: 550px){
+    #scheme {
+        width: 300px;
+    }
+    header {
+        justify-content: space-around;
+    }
+}
